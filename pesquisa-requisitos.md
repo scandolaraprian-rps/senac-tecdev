@@ -1,3 +1,32 @@
+Na Engenharia de Software, a diferença básica é que os **Requisitos Funcionais** definem **o que o sistema faz** (as funcionalidades), enquanto os **Requisitos Não Funcionais** definem **como o sistema se comporta** (as qualidades, restrições e padrões de desempenho).
+
+Para deixar isso bem claro, vamos usar o exemplo de um aplicativo de delivery estilo **iFood**:
+
+---
+
+### 1. Requisitos Funcionais (O que o sistema faz)
+
+São as funcionalidades que entregam valor direto para o usuário e atendem às regras de negócio.
+
+* **Pesquisa de restaurantes:** O usuário deve conseguir buscar estabelecimentos por nome ou categoria de comida (ex: lanches, japonesa, pizzaria).
+* **Processamento de pagamento:** O sistema deve permitir que o cliente conclua o pedido pagando via Pix, cartão de crédito ou dinheiro na entrega.
+* **Aceite de entregas:** O entregador deve ter a opção de aceitar ou recusar um pedido enviado pelo sistema na tela do seu aplicativo.
+
+---
+
+### 2. Requisitos Não Funcionais (Como o sistema se comporta)
+
+São características de qualidade, segurança, desempenho e usabilidade que o sistema precisa cumprir.
+
+* **Desempenho (Performance):** A tela inicial com a lista de restaurantes deve carregar em no máximo **2 segundos**, mesmo em conexões 4G.
+* **Segurança:** Todos os dados de cartão de crédito inseridos pelos usuários devem ser criptografados de ponta a ponta seguindo o padrão de segurança PCI-DSS.
+* **Escalabilidade (Capacidade):** O servidor do aplicativo deve suportar pelo menos **100 mil acessos simultâneos** durante os horários de pico (como no almoço de domingo ou em dias de jogos de futebol).
+
+---
+
+
+
+
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⣛⣩⣭⣭⣭⣭⣭⣭⡄⢲⣤⣤⣭⣙⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢉⣤⣴⣿⣿⣿⣿⣿⣿⠛⠟⠋⢠⣾⣿⣿⣿⣿⣷⡀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
